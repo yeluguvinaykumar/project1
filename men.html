@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Men's Wear - StyleHub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__container">
+      <a href="index.html" class="header__logo">StyleHub</a>
+      <input type="checkbox" id="navToggle" class="nav-toggle" hidden>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li><a href="index.html" class="header__nav-link">Home</a></li>
+          <li><a href="men.html" class="header__nav-link active">Men</a></li>
+          <li><a href="women.html" class="header__nav-link">Women</a></li>
+          <li><a href="index.html#arrivals" class="header__nav-link">New Arrivals</a></li>
+          <li><a href="index.html#contact" class="header__nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header__actions">
+        <a href="#" class="header__icon"><i class="fas fa-search"></i></a>
+        <a href="#" class="header__icon"><i class="fas fa-shopping-bag"></i></a>
+        <label for="navToggle" class="header__menu-toggle" aria-label="Menu">
+          <i class="fas fa-bars"></i>
+        </label>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero page-hero--men">
+    <div class="page-hero__overlay"></div>
+    <div class="container page-hero__container">
+      <div class="page-hero__content">
+        <h1 class="page-hero__title">Men's Collection</h1>
+        <p class="page-hero__subtitle">Sharp styles for the modern gentleman</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section class="arrivals section">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">Men's Wear</h2>
+        <p class="section__desc">Explore our full range of men's fashion</p>
+      </div>
+      <div class="arrivals__grid">
+        <div class="product-card">
+          <div class="product-card__image">
+            <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=300&h=400&fit=crop" alt="Premium Hoodie">
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__title">Premium Hoodie</h3>
+            <p class="product-card__price">$59.99</p>
+            <div class="product-card__rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn btn--dark">Add to Cart</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-card__image">
+            <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=300&h=400&fit=crop" alt="Casual T-Shirt">
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__title">Casual T-Shirt</h3>
+            <p class="product-card__price">$24.99</p>
+            <div class="product-card__rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <a href="#" class="btn btn--dark">Add to Cart</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-card__image">
+            <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?w=300&h=400&fit=crop" alt="Denim Jacket">
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__title">Denim Jacket</h3>
+            <p class="product-card__price">$89.99</p>
+            <div class="product-card__rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn btn--dark">Add to Cart</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-card__image">
+            <img src="https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=300&h=400&fit=crop" alt="Cargo Pants">
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__title">Cargo Pants</h3>
+            <p class="product-card__price">$44.99</p>
+            <div class="product-card__rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn btn--dark">Add to Cart</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-card__image">
+            <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=300&h=400&fit=crop" alt="Sneakers">
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__title">Sneakers</h3>
+            <p class="product-card__price">$79.99</p>
+            <div class="product-card__rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn btn--dark">Add to Cart</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-card__image">
+            <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=300&h=400&fit=crop" alt="Leather Jacket">
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__title">Leather Jacket</h3>
+            <p class="product-card__price">$149.99</p>
+            <div class="product-card__rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <a href="#" class="btn btn--dark">Add to Cart</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-card__image">
+            <img src="https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=300&h=400&fit=crop" alt="Wrist Watch">
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__title">Wrist Watch</h3>
+            <p class="product-card__price">$199.99</p>
+            <div class="product-card__rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn btn--dark">Add to Cart</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-card__image">
+            <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=300&h=400&fit=crop" alt="Backpack">
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__title">Travel Backpack</h3>
+            <p class="product-card__price">$64.99</p>
+            <div class="product-card__rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn btn--dark">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter section">
+    <div class="container">
+      <div class="newsletter__content">
+        <h2 class="newsletter__title">Stay in the Loop</h2>
+        <p class="newsletter__desc">Subscribe to get exclusive offers, new arrivals, and style tips straight to your inbox.</p>
+        <form class="newsletter__form">
+          <input type="email" class="newsletter__input" placeholder="Enter your email address" required>
+          <button type="submit" class="btn btn--primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <h3 class="footer__logo">StyleHub</h3>
+          <p class="footer__desc">Your destination for premium fashion. Quality styles for every occasion.</p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="footer__social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="footer__social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="footer__social-link" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+            <a href="#" class="footer__social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__heading">Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="men.html">Men's Wear</a></li>
+            <li><a href="women.html">Women's Wear</a></li>
+            <li><a href="kids.html">Kids Collection</a></li>
+            <li><a href="accessories.html">Accessories</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__heading">Customer Service</h4>
+          <ul class="footer__links">
+            <li><a href="#">Help & FAQs</a></li>
+            <li><a href="#">Shipping Info</a></li>
+            <li><a href="#">Returns & Exchanges</a></li>
+            <li><a href="#">Size Guide</a></li>
+            <li><a href="#">Track Order</a></li>
+          </ul>
+        </div>
+        <div class="footer__col" id="contact">
+          <h4 class="footer__heading">Contact Us</h4>
+          <ul class="footer__contact">
+            <li><i class="fas fa-map-marker-alt"></i> 123 Fashion Street, New York, NY 10001</li>
+            <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+            <li><i class="fas fa-envelope"></i> info@stylehub.com</li>
+            <li><i class="fas fa-clock"></i> Mon-Fri: 9AM - 9PM</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 StyleHub. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
