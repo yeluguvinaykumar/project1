@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - StyleHub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__container">
+      <a href="index.html" class="header__logo">StyleHub</a>
+      <input type="checkbox" id="navToggle" class="nav-toggle" hidden>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li><a href="index.html" class="header__nav-link">Home</a></li>
+          <li><a href="men.html" class="header__nav-link">Men</a></li>
+          <li><a href="women.html" class="header__nav-link">Women</a></li>
+          <li><a href="new-arrivals.html" class="header__nav-link">New Arrivals</a></li>
+          <li><a href="contact.html" class="header__nav-link active">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header__actions">
+        <a href="#" class="header__icon"><i class="fas fa-search"></i></a>
+        <a href="#" class="header__icon"><i class="fas fa-shopping-bag"></i></a>
+        <label for="navToggle" class="header__menu-toggle" aria-label="Menu">
+          <i class="fas fa-bars"></i>
+        </label>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero page-hero--contact">
+    <div class="page-hero__overlay"></div>
+    <div class="container page-hero__container">
+      <div class="page-hero__content">
+        <h1 class="page-hero__title">Get in Touch</h1>
+        <p class="page-hero__subtitle">We'd love to hear from you</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact section">
+    <div class="container">
+      <div class="contact__grid">
+        <div class="contact__info">
+          <h2 class="contact__heading">Contact Information</h2>
+          <p class="contact__desc">Have a question, feedback, or just want to say hi? Reach out to us through any of the channels below.</p>
+          <div class="contact__details">
+            <div class="contact__item">
+              <div class="contact__icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <h4>Visit Us</h4>
+                <p>123 Fashion Street, New York, NY 10001</p>
+              </div>
+            </div>
+            <div class="contact__item">
+              <div class="contact__icon"><i class="fas fa-phone-alt"></i></div>
+              <div>
+                <h4>Call Us</h4>
+                <p>+1 (555) 123-4567</p>
+              </div>
+            </div>
+            <div class="contact__item">
+              <div class="contact__icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <h4>Email Us</h4>
+                <p>info@stylehub.com</p>
+              </div>
+            </div>
+            <div class="contact__item">
+              <div class="contact__icon"><i class="fas fa-clock"></i></div>
+              <div>
+                <h4>Working Hours</h4>
+                <p>Mon - Fri: 9:00 AM - 9:00 PM<br>Sat - Sun: 10:00 AM - 6:00 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact__form-wrapper">
+          <h2 class="contact__heading">Send Us a Message</h2>
+          <form class="contact__form">
+            <div class="contact__form-row">
+              <input type="text" class="contact__input" placeholder="Your Name" required>
+              <input type="email" class="contact__input" placeholder="Your Email" required>
+            </div>
+            <input type="text" class="contact__input" placeholder="Subject">
+            <textarea class="contact__textarea" placeholder="Your Message" rows="6" required></textarea>
+            <button type="submit" class="btn btn--primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter section">
+    <div class="container">
+      <div class="newsletter__content">
+        <h2 class="newsletter__title">Stay in the Loop</h2>
+        <p class="newsletter__desc">Subscribe to get exclusive offers, new arrivals, and style tips straight to your inbox.</p>
+        <form class="newsletter__form">
+          <input type="email" class="newsletter__input" placeholder="Enter your email address" required>
+          <button type="submit" class="btn btn--primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <h3 class="footer__logo">StyleHub</h3>
+          <p class="footer__desc">Your destination for premium fashion. Quality styles for every occasion.</p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="footer__social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="footer__social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="footer__social-link" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+            <a href="#" class="footer__social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__heading">Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="men.html">Men's Wear</a></li>
+            <li><a href="women.html">Women's Wear</a></li>
+            <li><a href="kids.html">Kids Collection</a></li>
+            <li><a href="accessories.html">Accessories</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__heading">Customer Service</h4>
+          <ul class="footer__links">
+            <li><a href="#">Help & FAQs</a></li>
+            <li><a href="#">Shipping Info</a></li>
+            <li><a href="#">Returns & Exchanges</a></li>
+            <li><a href="#">Size Guide</a></li>
+            <li><a href="#">Track Order</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__heading">Contact Us</h4>
+          <ul class="footer__contact">
+            <li><i class="fas fa-map-marker-alt"></i> 123 Fashion Street, New York, NY 10001</li>
+            <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+            <li><i class="fas fa-envelope"></i> info@stylehub.com</li>
+            <li><i class="fas fa-clock"></i> Mon-Fri: 9AM - 9PM</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 StyleHub. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

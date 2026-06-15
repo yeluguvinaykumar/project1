@@ -446,6 +446,198 @@ img {
   opacity: 0.25;
 }
 
+.page-hero--arrivals {
+  background: linear-gradient(135deg, #1a1a2e 0%, #1a2e2e 100%);
+}
+
+.page-hero--arrivals::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: url('https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=1000&h=600&fit=crop') center/cover no-repeat;
+  opacity: 0.25;
+}
+
+.page-hero--contact {
+  background: linear-gradient(135deg, #1a1a2e 0%, #2e1a2e 100%);
+}
+
+.page-hero--contact::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: url('https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1000&h=600&fit=crop') center/cover no-repeat;
+  opacity: 0.25;
+}
+
+/* === Filter Bar === */
+.filter-bar {
+  border-bottom: 1px solid var(--color-border);
+  padding: 16px 0;
+}
+
+.filter-bar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-bar__count {
+  font-size: 0.9rem;
+  color: var(--color-text-light);
+  font-weight: 500;
+}
+
+.filter-bar__sort {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: var(--color-text-light);
+}
+
+.filter-bar__select {
+  padding: 8px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  background: var(--color-white);
+  color: var(--color-text);
+  cursor: pointer;
+  outline: none;
+}
+
+.filter-bar__select:focus {
+  border-color: var(--color-accent);
+}
+
+/* === Product Card Badge === */
+.product-card {
+  position: relative;
+}
+
+.product-card__badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: var(--color-accent);
+  color: var(--color-white);
+  padding: 4px 12px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-radius: var(--radius-sm);
+  z-index: 2;
+}
+
+.product-card__badge--sale {
+  background: #e74c3c;
+}
+
+/* === Contact Section === */
+.contact__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.contact__heading {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 16px;
+}
+
+.contact__desc {
+  color: var(--color-text-light);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 32px;
+}
+
+.contact__details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact__item {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.contact__icon {
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  border-radius: 50%;
+  background: var(--color-bg-alt);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-accent);
+  font-size: 1.1rem;
+}
+
+.contact__item h4 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 4px;
+}
+
+.contact__item p {
+  font-size: 0.9rem;
+  color: var(--color-text-light);
+  line-height: 1.6;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact__form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.contact__input,
+.contact__textarea {
+  width: 100%;
+  padding: 14px 18px;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color var(--transition);
+  background: var(--color-white);
+}
+
+.contact__input:focus,
+.contact__textarea:focus {
+  border-color: var(--color-accent);
+}
+
+.contact__textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
 /* === Featured Categories === */
 .categories__grid {
   display: grid;
@@ -1020,6 +1212,20 @@ img {
 
   .reviews__grid {
     grid-template-columns: 1fr;
+  }
+
+  .contact__grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .contact__form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .filter-bar__container {
+    flex-direction: column;
+    gap: 8px;
   }
 
   .newsletter__form {
